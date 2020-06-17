@@ -1,0 +1,157 @@
+html{
+    scroll-behavior: smooth;
+  }
+/* top */
+.container-fluid{
+    padding: 0%;
+}
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.6rem;
+}
+
+.navbar {
+    padding: 10px 15%;
+}
+
+.nav-link {
+    font-family: 'Roboto Slab', serif;
+    margin: 0px 15px;
+    font-size: 1.1rem;
+}
+
+.top-images {
+    width: 100vw;
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar {
+        padding: 10px 5%;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+}
+
+.feat {
+    color: white;
+    padding: 5% 0%;
+    width: 100%;
+    margin: 0;
+}
+
+.asd {
+    /* s */
+    padding: 7% 0%;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.yup {
+    padding: 0%;
+    margin: 0%;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.list1 {
+    padding: 0%;
+    margin: 0%;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .asd {
+        /* s */
+        padding: 4% 2%;
+        font-size: 1.4rem;
+    }
+    .list1 {
+        list-style: none;
+        text-align: center;
+        font-size: 1rem;
+        /* padding: 10% 5%; */
+    }
+    .feat {
+        color: white;
+        padding-bottom: 10%;
+    }
+}
+
+/* destinations */
+.img{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+.qwer{
+    width: 100%;
+    margin: 0%;
+}
+.imagebox{
+    padding: 0%;
+}
+.destheading{
+    text-align: center;
+    padding: 2% 0%;
+    font-size: 4rem;
+    font-family: 'Pacifico', cursive;
+}
+@media only screen and (max-width: 768px) {
+    .destheading{
+        padding: 4% 0%;
+        font-size: 1.6rem;
+        
+    }
+    .card-body{
+        line-height: 1;
+        padding: 10% 8%;
+    }
+    .pricing-column{
+        margin: 0%;
+        padding: 1%;
+    }
+}
+.pricing-column{
+    text-align: center;
+}
+.card-header{
+    font-family: 'Pacifico', cursive;
+    padding: 2% 2%;
+}
+.card-body{
+    font-family: 'Open Sans', sans-serif;
+}
+.card{
+    margin-bottom: 10%;
+}
+
+/* footer */
+
+#Contact{   
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 3% 15%;
+    
+}
+.last{
+    text-align: center;
+}
+.social-icon{
+        margin: 10px 10px;
+}
+@media only screen and (max-width: 768px) {
+    .card-body h3{
+        margin: 0% 2% 10%;
+        text-align: center;
+    }
+    #Contact{
+        padding : 5% 5%;
+    }
+    .social-icon{
+        margin: 25px 10px;
+    }
+}
